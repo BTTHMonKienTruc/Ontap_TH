@@ -3,3 +3,10 @@
 	Spring Web
 	MySQL Driver
 	Spring Data JPA
+
+// gateway
+
+	Gateway
+	Spring Data Reactive Redis 
+	Spring Boot Actuator 
+	Spring Reactive Web 	

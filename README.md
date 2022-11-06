@@ -4,5 +4,5 @@
 ![Khong ton tai](./anhminhhoa/img_1.png)
 
 ### APP GateWay
-![Khong ton tai](./anhminhhoa/img_2.png)
+![Khong ton tai](./anhminhhoa/img_3.png)
 

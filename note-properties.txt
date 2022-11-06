@@ -11,3 +11,19 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 #port
 server.port=8001
 
+# GateWay
+server.port: 8004
+
+#
+spring.cloud.gateway.routes[0].id=book
+spring.cloud.gateway.routes[0].uri=http://localhost:8081
+spring.cloud.gateway.routes[0].predicates[0]=Path=/book/**
+
+#
+spring.cloud.gateway.routes[1].id=film
+spring.cloud.gateway.routes[1].uri=http://localhost:8082
+spring.cloud.gateway.routes[1].predicates[0]=Path=/film/**
+
+#
+
+#Cloud Config
